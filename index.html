@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 009 - Lourenço Sequeira</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!--Título-->
+    <h1>Conversor de unidades (Temperaturas)</h1>
+    
+    <!--Tabela-->
+    <section class="inputs">
+    <table>
+        <!--Linha 1-->
+        <form>
+        <tr style="height: 60px;">
+            <th class="grauscelsius">Graus Celsius</th>
+            <th>
+                <input type="number" id="celsius" name="celsius" placeholder="Celsius" class="graus" oninput="legenda()">
+            </th>
+        </tr>
+        
+        <!--Linha 2-->
+        <tr style="height: 60px;">
+            <th class="grausfahrenheit">Graus Fahrenheit</th>
+            <th>
+                <input type="number" id="fahrenheit" name="fahrenheit" placeholder="Fahrenheit" class="graus" oninput="legenda()">
+            </th>
+        </tr>
+        
+        <!--Linha 3-->
+        <tr style="height: 60px;">
+            <th class="grauskelvin">Graus Kelvin</th>
+            <th>
+                <input type="number" id="kelvin" name="kelvin" placeholder="Kelvin" class="graus" oninput="legenda()">
+            </th>
+        </tr>
+        <!--Linha 4-->
+        <tr style="height: 60px;">
+            <th class="unidadessi">Fonte Unidades SI</th>
+            <th><a href="https://www.infoescola.com/fisica/conversao-de-escalas-termometricas/">Visita a fonte de pesquisa!</a></th>
+        </tr>
+        </form>
+    
+    </table>
+    </section> 
+
+    
+    <!--Output HTML-->
+    <div id="outputHTML" class="legenda"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

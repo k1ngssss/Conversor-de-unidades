@@ -1,0 +1,83 @@
+h1 {text-align: center;
+    font-size: 40px;
+    margin-top: 2%;
+
+}
+
+table{border-collapse: collapse;
+    border: 2px solid black;
+    font-size: 35px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: white;
+
+}
+
+th, td {border-collapse: collapse;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: lighter;
+    width: 20%;
+
+}
+
+.grauscelsius {background-color: aquamarine;
+  font-weight: bolder;
+
+}
+
+.grausfahrenheit {background-color: aqua;
+  font-weight: bolder;
+
+}
+
+.grauskelvin {background-color: rgb(64, 64, 252);
+  font-weight: bolder;
+
+}
+
+button {font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-left: 10%;
+  margin-top: 1%;
+
+}
+
+.buttonreset {font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-left: 1%;
+    margin-top: 1%;
+
+}
+
+input {
+  margin: 8px;
+  background: none;
+  border-radius: 8px;
+  padding: 20px;
+  outline: none;
+  font-size: 20px;
+
+}
+
+div {
+  font-size: 35px;
+  text-align: left;
+  margin-left: 50%;
+  margin-top: 2%;
+  font-weight: bolder;
+}
+
+.unidadessi {
+  font-weight: bolder;
+}
+
